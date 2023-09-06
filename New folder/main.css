@@ -1,0 +1,133 @@
+.Trangchu   {
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    
+}
+.gioithieu {
+    width: 30%;
+    height: 1000px;
+    background-color: black;
+    
+}
+.info {
+    width: 70%;
+    height: 1000px;
+    background-color: aliceblue;
+}
+.anh {
+    width: 100%;
+    height: 300px;
+    background-color: red;
+}
+.anh>img{
+    width: 200px;
+    height: 200px;
+    margin-top: 53px;
+    margin-left: 29px;
+    border-radius: 50%;
+}
+.ttcn {
+    width: 100%;
+    height: 400px;
+    background-color: red;
+}
+.ttcn>h2{
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+.ttcn>ul{
+    list-style: none ;
+    font-size: 20px;
+    color: white;
+}
+.ttcn>ul  li{
+    padding: 10px;
+}
+.tienan {
+    width: 100%;
+    height: 300px;
+    background-color: red;
+}
+.tienan>h2 {
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+.tienan>ul{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+}
+.tienan>ul li{
+    padding: 10px;
+}
+.a>h2 {
+    margin-top: 50px;
+    margin-left: 150px;
+
+}
+.a>ul{
+    font-size: 20px;
+}
+.a>ul li{
+    padding: 10px;
+}
+.b>h2 {
+    margin-left: 200px;
+}
+.b>ul{
+    font-size: 20px;
+}
+.b>ul li{
+    padding: 10px;
+}
+.c>h2 {
+    margin-left: 150px;
+}
+body {
+    margin:0 250px;
+}
+.c>p {
+    font-size: 20px;
+    margin-left: 15px;
+}
+.c>ul{
+    font-size: 20px;
+
+}
+.c>ul li{
+    padding: 10px;
+}
+.line{
+    position: relative;
+    width: 100%;
+    height: 8px;
+    background-color: #fff;
+}
+
+.line::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0  ;
+    width: 50%;
+        height: 8px;
+    background-color: greenyellow ;
+}
+
+
+.line2::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0  ;
+    width: 70%;
+        height: 8px;
+    background-color: greenyellow ;
+}
+
+
